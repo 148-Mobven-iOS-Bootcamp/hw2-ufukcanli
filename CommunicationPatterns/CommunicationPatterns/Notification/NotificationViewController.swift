@@ -12,6 +12,12 @@ class NotificationViewController: UIViewController {
     @IBOutlet weak var greetingMessageLabel: UILabel!
     @IBOutlet weak var warningMessageLabel: UILabel!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        navigationItem.title = "Notification"
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "editNameSegueNC" {
             if let _ = segue.destination as? EditNameNCViewController {

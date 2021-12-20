@@ -20,6 +20,9 @@
 		D2F730822770A2BD00C2F911 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F730812770A2BD00C2F911 /* Notification.storyboard */; };
 		D2F730842770A33500C2F911 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F730832770A33500C2F911 /* NotificationViewController.swift */; };
 		D2F730862770A41E00C2F911 /* EditNameNCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F730852770A41E00C2F911 /* EditNameNCViewController.swift */; };
+		D2F7308A2770B19B00C2F911 /* Closure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F730892770B19B00C2F911 /* Closure.storyboard */; };
+		D2F7308C2770B1E300C2F911 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F7308B2770B1E300C2F911 /* ClosureViewController.swift */; };
+		D2F7308E2770B2E300C2F911 /* EditNameCPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F7308D2770B2E300C2F911 /* EditNameCPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		D2F730812770A2BD00C2F911 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
 		D2F730832770A33500C2F911 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		D2F730852770A41E00C2F911 /* EditNameNCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameNCViewController.swift; sourceTree = "<group>"; };
+		D2F730892770B19B00C2F911 /* Closure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Closure.storyboard; sourceTree = "<group>"; };
+		D2F7308B2770B1E300C2F911 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		D2F7308D2770B2E300C2F911 /* EditNameCPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameCPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				D2F730752770940C00C2F911 /* Main */,
+				D2F730872770AF4F00C2F911 /* Closure */,
 				D2F730762770941900C2F911 /* Delegate */,
 				D2F730802770A23100C2F911 /* Notification */,
 				D2F7307B27709F6800C2F911 /* Extensions */,
@@ -126,6 +133,16 @@
 				D2F730852770A41E00C2F911 /* EditNameNCViewController.swift */,
 			);
 			path = Notification;
+			sourceTree = "<group>";
+		};
+		D2F730872770AF4F00C2F911 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				D2F730892770B19B00C2F911 /* Closure.storyboard */,
+				D2F7308B2770B1E300C2F911 /* ClosureViewController.swift */,
+				D2F7308D2770B2E300C2F911 /* EditNameCPViewController.swift */,
+			);
+			path = Closure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +206,7 @@
 				D2F7307327708DC500C2F911 /* Delegate.storyboard in Resources */,
 				D2F7306827708ADA00C2F911 /* Assets.xcassets in Resources */,
 				D2F7306627708AD600C2F911 /* Main.storyboard in Resources */,
+				D2F7308A2770B19B00C2F911 /* Closure.storyboard in Resources */,
 				D2F730822770A2BD00C2F911 /* Notification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,11 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F7308C2770B1E300C2F911 /* ClosureViewController.swift in Sources */,
 				D2F730862770A41E00C2F911 /* EditNameNCViewController.swift in Sources */,
 				D2F7306327708AD600C2F911 /* MainViewController.swift in Sources */,
 				D2F7307A2770958D00C2F911 /* EditNameDPViewController.swift in Sources */,
 				D2F7307F2770A07700C2F911 /* UIViewController+Ext.swift in Sources */,
 				D2F730842770A33500C2F911 /* NotificationViewController.swift in Sources */,
+				D2F7308E2770B2E300C2F911 /* EditNameCPViewController.swift in Sources */,
 				D2F730782770943300C2F911 /* DelegateViewController.swift in Sources */,
 				D2F7305F27708AD600C2F911 /* AppDelegate.swift in Sources */,
 				D2F7306127708AD600C2F911 /* SceneDelegate.swift in Sources */,
