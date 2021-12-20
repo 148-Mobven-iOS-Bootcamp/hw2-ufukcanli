@@ -17,6 +17,9 @@
 		D2F730782770943300C2F911 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F730772770943300C2F911 /* DelegateViewController.swift */; };
 		D2F7307A2770958D00C2F911 /* EditNameDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F730792770958D00C2F911 /* EditNameDPViewController.swift */; };
 		D2F7307F2770A07700C2F911 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F7307E2770A07700C2F911 /* UIViewController+Ext.swift */; };
+		D2F730822770A2BD00C2F911 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F730812770A2BD00C2F911 /* Notification.storyboard */; };
+		D2F730842770A33500C2F911 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F730832770A33500C2F911 /* NotificationViewController.swift */; };
+		D2F730862770A41E00C2F911 /* EditNameNCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F730852770A41E00C2F911 /* EditNameNCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		D2F730772770943300C2F911 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
 		D2F730792770958D00C2F911 /* EditNameDPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameDPViewController.swift; sourceTree = "<group>"; };
 		D2F7307E2770A07700C2F911 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		D2F730812770A2BD00C2F911 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		D2F730832770A33500C2F911 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		D2F730852770A41E00C2F911 /* EditNameNCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameNCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			children = (
 				D2F730752770940C00C2F911 /* Main */,
 				D2F730762770941900C2F911 /* Delegate */,
+				D2F730802770A23100C2F911 /* Notification */,
 				D2F7307B27709F6800C2F911 /* Extensions */,
 				D2F73074277093E900C2F911 /* Configuration */,
 				D2F7306727708ADA00C2F911 /* Assets.xcassets */,
@@ -109,6 +116,16 @@
 				D2F7307E2770A07700C2F911 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2F730802770A23100C2F911 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				D2F730812770A2BD00C2F911 /* Notification.storyboard */,
+				D2F730832770A33500C2F911 /* NotificationViewController.swift */,
+				D2F730852770A41E00C2F911 /* EditNameNCViewController.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +189,7 @@
 				D2F7307327708DC500C2F911 /* Delegate.storyboard in Resources */,
 				D2F7306827708ADA00C2F911 /* Assets.xcassets in Resources */,
 				D2F7306627708AD600C2F911 /* Main.storyboard in Resources */,
+				D2F730822770A2BD00C2F911 /* Notification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,9 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F730862770A41E00C2F911 /* EditNameNCViewController.swift in Sources */,
 				D2F7306327708AD600C2F911 /* MainViewController.swift in Sources */,
 				D2F7307A2770958D00C2F911 /* EditNameDPViewController.swift in Sources */,
 				D2F7307F2770A07700C2F911 /* UIViewController+Ext.swift in Sources */,
+				D2F730842770A33500C2F911 /* NotificationViewController.swift in Sources */,
 				D2F730782770943300C2F911 /* DelegateViewController.swift in Sources */,
 				D2F7305F27708AD600C2F911 /* AppDelegate.swift in Sources */,
 				D2F7306127708AD600C2F911 /* SceneDelegate.swift in Sources */,
