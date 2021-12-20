@@ -13,6 +13,7 @@
 		D2F7306627708AD600C2F911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F7306427708AD600C2F911 /* Main.storyboard */; };
 		D2F7306827708ADA00C2F911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F7306727708ADA00C2F911 /* Assets.xcassets */; };
 		D2F7306B27708ADA00C2F911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F7306927708ADA00C2F911 /* LaunchScreen.storyboard */; };
+		D2F7307327708DC500C2F911 /* Delegate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F7307227708DC500C2F911 /* Delegate.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D2F7306727708ADA00C2F911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2F7306A27708ADA00C2F911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2F7306C27708ADA00C2F911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7307227708DC500C2F911 /* Delegate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delegate.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D2F7306027708AD600C2F911 /* SceneDelegate.swift */,
 				D2F7306227708AD600C2F911 /* ViewController.swift */,
 				D2F7306427708AD600C2F911 /* Main.storyboard */,
+				D2F7307227708DC500C2F911 /* Delegate.storyboard */,
 				D2F7306727708ADA00C2F911 /* Assets.xcassets */,
 				D2F7306927708ADA00C2F911 /* LaunchScreen.storyboard */,
 				D2F7306C27708ADA00C2F911 /* Info.plist */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F7306B27708ADA00C2F911 /* LaunchScreen.storyboard in Resources */,
+				D2F7307327708DC500C2F911 /* Delegate.storyboard in Resources */,
 				D2F7306827708ADA00C2F911 /* Assets.xcassets in Resources */,
 				D2F7306627708AD600C2F911 /* Main.storyboard in Resources */,
 			);
