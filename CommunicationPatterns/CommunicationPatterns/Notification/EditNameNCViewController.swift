@@ -12,7 +12,7 @@ class EditNameNCViewController: UIViewController {
     @IBOutlet weak var editNameTextField: UITextField!
         
     @IBAction func didTapCancelButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true)
     }
     
     @IBAction func didTapDoneButton(_ sender: UIBarButtonItem) {
@@ -21,7 +21,7 @@ class EditNameNCViewController: UIViewController {
             return
         }
         configureEditNameNotification(name: name)
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true)
     }
 }
 

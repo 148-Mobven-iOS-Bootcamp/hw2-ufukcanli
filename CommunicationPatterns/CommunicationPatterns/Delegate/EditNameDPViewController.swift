@@ -18,7 +18,7 @@ class EditNameDPViewController: UIViewController {
     weak var delegate: EditNameDPViewControllerDelegate?
     
     @IBAction func didTapCancelButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true)
     }
     
     @IBAction func didTapDoneButton(_ sender: UIBarButtonItem) {
@@ -27,6 +27,6 @@ class EditNameDPViewController: UIViewController {
             return
         }
         delegate?.didFinishEditing(name: name)
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true)
     }
 }
